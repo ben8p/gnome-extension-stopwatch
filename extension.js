@@ -122,5 +122,6 @@ function enable() {
 }
 
 function disable() {
+    stopwatch.destruct();
     stopwatch.destroy();
 }
